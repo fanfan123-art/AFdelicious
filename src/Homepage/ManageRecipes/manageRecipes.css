@@ -1,0 +1,80 @@
+.Headera{
+    color: rgb(24, 10, 223);
+    margin: 0px 0px 0px 12px;
+}
+.Header{
+    width: 900px;
+    height: 500px;
+}
+.First{
+width: 800px;
+height: 80px;
+}
+.First1{
+    margin: 10px 50px 0px 50px;
+    background: aliceblue;
+}
+.First2{ 
+     float: right;
+    margin-top: 10px;
+
+}
+.img{
+    float:  right;
+}
+.Header1{
+    width: 800px;
+    border: 1px solid gold;
+    height: 200px;
+}
+.Second{
+    width: 800px;
+    height: 40px;
+     border: 1px solid pink;
+}
+
+.Second1 {
+    width: 100px;
+   height: 2px;
+    text-align: center;
+    font-size: 1em;
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+
+}
+.Second2{
+    float:  right;
+    background: aliceblue;
+}
+.Second3{
+    float: right;
+    margin: 0px 50px 0px 0px ;
+    background: aliceblue;
+}
+.Three{
+    width: 800px;
+    height: 200px;
+    border: 1px solid pink;
+    margin-top: 5px;
+}
+.Three1{
+    list-style-type: none;
+    
+}
+.Three1 li{
+    display: inline;
+    margin: 50px;
+}
+.Four{
+    margin: 0px 0px 0px 0px;
+}
+.Four1{
+    float: right;
+    margin-right: 50px;
+}
+.Four1 button{
+    background: aliceblue;
+}
+.Four2{
+    margin: 0px 5px 0px 5px;
+}

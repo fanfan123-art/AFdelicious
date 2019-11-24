@@ -1,0 +1,27 @@
+.Header{
+    color: rgb(24, 10, 223);
+    margin: 0px 0px 0px 12px;
+}
+.Header1{
+    width: 700px;
+    border: 1px solid gray;
+    height:500px ;
+    margin-left: 10px;
+}
+.First1{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 30px;
+    width: 700px;
+}
+.First1 input{
+    width: 150px;
+}
+.First2{
+    margin: 15px 0px 15px 10px;
+}
+.First3{
+    width: 400px;
+    height: 100px;
+    margin-left: 10px;
+}

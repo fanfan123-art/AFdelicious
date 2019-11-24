@@ -1,0 +1,67 @@
+.Header{
+    color: rgb(24, 10, 223);
+    margin: 0px 0px 0px 12px;
+    font-size: 20px;
+}
+.all{
+    width: 100%;
+    height: 600px;
+}
+.First1{
+    width: 100%;
+    height: 30px;
+}
+.First1 button{
+    margin: 0px 150px 0px 100px;
+    background-color: aliceblue;
+}
+.Input{
+    float: right;
+    margin-right: 150px;
+}
+.Second1{
+    width: 100%;
+    height: 100px;
+    margin: 30px 0px 0px 0px;
+}
+.Second2{
+    font-size: 16px;
+}
+.Second21{
+    font-size: 16px;
+}
+.Second22{
+    font-size: 16px;
+    float: right;
+    margin-right: 100px;
+}
+
+.Second3{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid grey;
+}
+.Second4{
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(230, 228, 228);
+}
+.Second4 li{
+    display: inline;
+    margin: 150px;
+    font-size: 15px
+}
+.Second5{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+.Four1{
+    text-align: center;
+    font-size: 15px;
+}
+.Four1 button{
+    margin: 0px 20px 0px 20px;
+    background-color: rgb(36, 168, 36); 
+}

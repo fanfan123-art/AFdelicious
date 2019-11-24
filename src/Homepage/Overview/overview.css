@@ -1,0 +1,25 @@
+
+.Header{
+    color: rgb(24, 10, 223);
+    margin: 0px 0px 0px 12px;
+    font-size: 20px;
+}
+.First{
+   background-color: rgb(229, 242, 253);  
+   width: 1200px;
+}
+.First1{
+    border-bottom: 1px solid grey;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+.First21{
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin: 20px 100px 0px 0px ;
+   background-color: rgb(249, 251, 253);
+}
+

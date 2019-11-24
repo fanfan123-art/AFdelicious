@@ -1,0 +1,15 @@
+.Header{
+    color: rgb(24, 10, 223);
+    margin: 0px 0px 0px 12px;
+    font-size: 20px;
+}
+.First{
+    margin-left: 300px;
+}
+.First button{
+    margin: 0px 0px 0px 260px;
+    background-color: aliceblue;
+}
+.right{
+    float: right;
+}

@@ -1,0 +1,144 @@
+div{
+    font-family: 微软雅黑，'microsoft yahei',宋体，新宋体，san-serif;
+}
+.Header{
+    color: rgb(24, 10, 223);
+    margin: 0px 0px 0px 12px;
+}
+.tip{
+    overflow: auto;
+    background: #e8eaed;
+    height: 600px;  
+}
+.tip0{
+    overflow: hidden;
+    display: inline-block;
+    background-color: #fff;
+    margin: 20px 0px 20px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0,0, .04);
+    box-sizing: border-box;
+    width: 1070px;
+    height: 600px;
+}
+.tip1{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+.tip2{
+    height:calc(100%+6);
+    position: relative;
+    overflow: scroll;
+    height: 600px;
+}
+.tip3{
+    height: 380px;
+     position: relative;
+}
+.tip4{
+    height: 380px;
+   position: relative;
+}
+.tip5{
+    height: 380px;
+     padding-left: 15px;
+}
+.tip6{
+    height: 380px;
+   padding-bottom: 15px;
+}
+
+.tip7{
+    height: 380px;    
+    padding: 35px 0px 10px;
+}
+.tip8{
+    margin: 10px 0px 10px 0px;
+}
+.tip8a{
+    text-align: right;
+    vertical-align: middle;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    line-height: 1;
+    padding: 10px 10px 11px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tip8a1{
+    line-height: 34px;
+    font-size: 0;
+}
+.tip8b{
+    
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    pointer-events: auto;
+}
+.tip8b1{
+    display: block;
+    width: 200px;
+    height: 34px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #e3e2e8;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #333;
+    padding: 0 8px;
+    text-overflow: ellipsis;
+    border-color: rgb(8, 214, 214);
+    
+}
+
+.tip9{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 1.15em;
+    font-family: "微软雅黑";
+    width: 100px;
+}
+.tip9b{
+    border: 1px solid gray; 
+    width: 1000px;
+    height: 300px;
+}
+.ul{
+    border: 1px solid gray;
+    width: 890px;
+    text-align: center;
+    font-size: 1.25em;
+    border-color: aqua;
+    background-color: black;
+}
+.tip9b1{
+    width: 1000px;
+    height: 450px;
+    border-color: rgb(8, 214, 214);
+}
+.tip10{
+    margin: 0px 0px 0px 50px;
+   
+    
+}
+.tip11{
+    width: 890px;
+}
+.tip11a{
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+    background-color:aliceblue;
+
+}
+.tip11b{
+    float: right;
+    margin-right: 250px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
