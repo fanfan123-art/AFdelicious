@@ -14,6 +14,7 @@ class Login extends React.Component {
               }
         })
     }
+    
     render() {
         const { getFieldDecorator} = this.props.form;
 
@@ -35,23 +36,23 @@ class Login extends React.Component {
                         <Form onSubmit={this.handleSubmit} className={LoginCss.form}>
                             <Form.Item>
                                 {getFieldDecorator('username', {
-                                    rules: [{ required: true, message: 'Please input your username!' }],
+                                    rules: [{ required: true, message: '请输入用户名!' }],
                                 })(
                                     <Input
                                         prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                                        placeholder="Username"
+                                        placeholder="用户名"
                                         size="large"
                                     />,
                                 )}
                             </Form.Item>
                             <Form.Item>
                                 {getFieldDecorator('password', {
-                                    rules: [{ required: true, message: 'Please input your Password!' }],
+                                    rules: [{ required: true, message: '请输入密码!' }],
                                 })(
                                     <Input
                                         prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
                                         type="password"
-                                        placeholder="Password"
+                                        placeholder="密码"
                                         size="large"
                                     />,
                                 )}
@@ -60,12 +61,12 @@ class Login extends React.Component {
                                 {getFieldDecorator('remember', {
                                     valuePropName: 'checked',
                                     initialValue: true,
-                                })(<Checkbox>Remember me</Checkbox>)}
+                                })(<Checkbox>记住密码</Checkbox>)}
                                 <a className={LoginCss.forgot} href="">
-                                    Forgot password
+                                    忘记密码
                             </a>
-                                <Button type="primary" htmlType="submit" className={LoginCss.button} size="large">
-                                    Log in
+                                <Button type="primary" htmlType="submit" className={LoginCss.button} size="large" onClick={e => {this.onSubmit(e)}}>
+                                    登录
                             </Button>
                             </Form.Item>
                         </Form>
